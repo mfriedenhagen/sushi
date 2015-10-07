@@ -138,7 +138,8 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <scope>test</scope>
+      <scope>compile</scope>
+      <optional>true</optional>
     </dependency>
 
     <!-- sushi has a base64 codec, this is to test it: -->
